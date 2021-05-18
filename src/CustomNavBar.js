@@ -1,10 +1,9 @@
 import React from 'react';
-import {NavDropdown, navbar} from 'react-bootstrap';
+import {NavDropdown, Form, Nav, Button, FormControl,Navbar} from 'react-bootstrap';
 
 class CustomNavBar extends React.Component {
-  
-
   render() {
+      return(
    <div>
    <Navbar bg="light" expand="lg">
   <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
@@ -28,7 +27,7 @@ class CustomNavBar extends React.Component {
   </Navbar.Collapse>
 </Navbar>
    </div>
-      
+      )
    
   }
 }

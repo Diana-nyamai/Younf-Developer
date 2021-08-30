@@ -1,10 +1,1 @@
-import './App.css';
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
-}
-
-export default App;
+console.log("hello from nodejs")

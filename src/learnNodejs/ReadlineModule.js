@@ -30,3 +30,5 @@ Rl.question(`what is ${num1} + ${num2}? \n`,
 Rl.on('close', ()=>{
     console.log('correct answer');
 })
+
+// readline module

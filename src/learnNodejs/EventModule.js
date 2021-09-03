@@ -25,3 +25,4 @@ Diana.on('name', ()=>{
 })
 
 Diana.emit('name')
+//event module

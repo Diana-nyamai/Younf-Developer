@@ -5,7 +5,7 @@ eventEmitter.on('module', (num1, num2)=>{
     console.log( num1 + num2);
 });
 
-eventEmitter.emit('module', 2,7);
+eventEmitter.emit('module', 2,10);
 
 class Person extends EventEmitter{
     constructor(name) {
